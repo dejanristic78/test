@@ -32,6 +32,9 @@ public class AppBean {
     void init() {
         System.err.println("AppBean PostConstruct!");
     }
+    public void newfunc(){
+        
+    }
     public void persistData1() {
         System.err.println("Persisting");
         em.persist(new Competence("Lampa"));
